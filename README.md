@@ -15,6 +15,6 @@ This repository contains the MATLAB code that I wrote during my M.Sc. thesis pro
 * For two-qubit states only.
 
 ###### Usage:
-`code/cholesky_2qb_flat.m`, `code/cholesky_2qb_non_flat.m` and `code/spect_2qb_flat.m` are functions to be called by a main HMC program, in order to compute numerically the density matrix, probabilities, Jacobian determinant and potential gradients based on the angle variables, density matrix dimension and POMs provided by the main HMC program. 
+`code/cholesky_2qb_flat.m`, `code/cholesky_2qb_non_flat.m` and `code/spect_2qb_flat.m` are functions to be called by a main HMC program, in order to compute numerically and return the density matrix, probabilities, Jacobian determinant and potential gradients based on the angle variables, density matrix dimension and POMs provided by the main HMC program. 
 
 Code is released under the MIT license.
